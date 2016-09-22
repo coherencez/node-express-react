@@ -1,10 +1,10 @@
 const React = require('React')
 
 
-const DefaultLayout = React.creatClass({
-  render: () => {
+const DefaultLayout = React.createClass({
+  render: function() {
     return (
-      <html lang='en'>
+      <html>
         <head>
           <title>{this.props.name}</title>
         </head>

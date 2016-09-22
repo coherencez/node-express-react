@@ -5,7 +5,7 @@ const { Router } = require('express')
 
 
 route.get('/', (req,res) => {
-  res.render('index', {name: 'HOOBALSHSOSO'})
+  res.render('index', {name: 'React'})
 })
 
 

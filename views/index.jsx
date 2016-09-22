@@ -1,13 +1,16 @@
 const React = require('React')
+const DefaultLayout = require('./layouts/master')
 
 
 
 const IndexComponent = React.createClass({
-  render: () => {
+  render: function() {
     return (
-      <div>
-        <h1>This was built using React</h1>
-      </div>
+      <DefaultLayout name={this.props.name}>
+        <div>
+          <h1>This was built {this.props.name}</h1>
+        </div>
+      </DefaultLayout>
     )
   }
 })
