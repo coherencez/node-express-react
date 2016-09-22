@@ -5,7 +5,7 @@ const { Router } = require('express')
 
 
 route.get('/', (req,res) => {
-  res.send('<h1>Live from express, its an h1 tag</h1>')
+  res.render('index', {name: 'HOOBALSHSOSO'})
 })
 
 

@@ -3,7 +3,7 @@
 const express = require('express')
   ,       app = express()
   ,      port = process.env.PORT || 3000
-  ,    routes = require('/routes/index')
+  ,    routes = require('./routes/index')
 
 
 app.set('port', port)
