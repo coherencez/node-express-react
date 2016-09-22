@@ -7,7 +7,7 @@ const IndexComponent = React.createClass({
     return (
       <DefaultLayout name={this.props.name}>
         <div>
-          <h1>This was built {this.props.name}</h1>
+          <h1>This was built using {this.props.name}</h1>
         </div>
       </DefaultLayout>
     )

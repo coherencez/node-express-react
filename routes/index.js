@@ -9,10 +9,14 @@ route.get('/', (req,res) => {
 })
 
 route.get('/comments', (req,res) => {
-  res.render('comments', {data: [
+  res.render('comments', {name: 'Comments', data: [
           {id: 1, author: "Pete Hunt", text: "This is one comment"},
           {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
         ]})
+})
+
+route.get('/about', (req,res) => {
+  res.render('about', {name: 'About'})
 })
 
 
