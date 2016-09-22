@@ -1,4 +1,5 @@
 const React = require('react')
+const Comment = require('./Comment')
 
 const CommentList = React.createClass({
   render: function() {
