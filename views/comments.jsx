@@ -1,8 +1,8 @@
 const React = require('React')
 const DefaultLayout = require('./layouts/master')
-const CommentBox = require('./CommentBox')
-const CommentList = require('./CommentList')
-const CommentForm = require('./CommentForm')
+const CommentBox = require('./layouts/CommentBox')
+const CommentList = require('./layouts/CommentList')
+const CommentForm = require('./layouts/CommentForm')
 
 
 

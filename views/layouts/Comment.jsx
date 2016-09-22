@@ -5,11 +5,16 @@ const Comment = React.createClass({
   render: function() {
     return(
       <div className="comment">
-       <h2 className="commentAuthor">
-         {this.props.author}
-       </h2>
-       {this.props.text}
-     </div>
+         <h2 className="commentAuthor">
+           {this.props.author}
+         </h2>
+         <p>
+           {this.props.text}
+         </p>
+         <p>
+           {this.props.id}
+         </p>
+      </div>
     );
   }
 })
