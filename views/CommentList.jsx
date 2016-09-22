@@ -5,9 +5,7 @@ const CommentList = React.createClass({
   render: function() {
     let commentNodes = this.props.data.map(function(comment) {
       return(
-        <Comment author={comment.author} key={comment.id}>
-           {comment.text}
-         </Comment>
+        <Comment author={comment.author} key={comment.id} text={comment.text} />
       );
     });
    return (

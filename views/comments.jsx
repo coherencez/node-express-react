@@ -10,7 +10,7 @@ const CommentsComponent = React.createClass({
   render: function() {
     return (
       <DefaultLayout name={this.props.name} data={this.props.data}>
-        <CommentBox >
+        <CommentBox data={this.props.data}>
           <CommentList data={this.props.data}/>
           <CommentForm onCommentSubmit={this.handleCommentSubmit}/>
         </CommentBox>

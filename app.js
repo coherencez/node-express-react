@@ -20,5 +20,5 @@ app.use(express.static(path.join(__dirname)))
 
 // initiate sever on designated port
 app.listen(port, () => {
-  console.log(`Now listeing one ${port}`)
+  console.log(`Now listening one ${port}`)
 })
